@@ -1,0 +1,7 @@
+{
+  "text.config.compact_armor_bar_config.title": "Compact Armor Bar Configuration",
+  "text.config.compact_armor_bar_config.option.betterMountHUD": "Better Mount HUD Compat",
+  "text.config.compact_armor_bar_config.option.betterMountHUD.tooltip": "Enable it to avoid overlapping with Better Mount HUD or similar.",
+  "text.config.compact_armor_bar_config.option.rowOffset": "Row Offset",
+  "text.config.compact_armor_bar_config.option.rowOffset.tooltip": "Move the armor bar in a row basis if needed. Positive up, negative down."
+}

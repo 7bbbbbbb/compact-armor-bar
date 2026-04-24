@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "compact-armor-bar",
+	"version": "${version}",
+	"name": "Compact Armor Bar",
+	"description": "A compact armor bar with all the info you need.",
+	"authors": [
+		"x7bbbbbbb"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/compact-armor-bar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.x7bbbbbbb.compact_armor_bar.CompactArmorBar"
+		]
+	},
+	"mixins": [
+		"compact-armor-bar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

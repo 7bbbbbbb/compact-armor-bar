@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.x7bbbbbbb.compact_armor_bar.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"InGameHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
