@@ -6,7 +6,7 @@ import net.x7bbbbbbb.compact_armor_bar.CompactArmorBar;
 
 @Modmenu(modId = CompactArmorBar.MOD_ID)
 @Config(name = "compact_armor_bar_config", wrapperName = "CompactArmorBarConfig")
-public class CompactArmorBarConfigModel{
+public class CompactArmorBarConfigModel {
     public boolean betterMountHUD = false;
     public int rowOffset = 0;
 }
