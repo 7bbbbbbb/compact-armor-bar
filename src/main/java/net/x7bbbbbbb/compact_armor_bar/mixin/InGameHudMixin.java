@@ -52,9 +52,9 @@ public class InGameHudMixin {
                 }
             }
 
-            int rightEdge = (width / 2) + 91;
+            int rightEdge = (width / 2) + 90;
             int barWidth = 8;
-            int spacing = 3;
+            int spacing = 2;
             int iconWidth = 9;
 
             int barsX = rightEdge - barWidth;
